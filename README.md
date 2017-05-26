@@ -13,3 +13,6 @@ Note: Only sound is simulated.
   - Play whip sound shaking the device like a real whip.
   - Cool graphics.
 
+## Demo
+
+http://latigo.palasaka.net
