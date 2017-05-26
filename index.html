@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html manifest="offline.appcache.php">
+	<head> 
+		<title>Latigo</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="appsfuel_code" content="34cc5ca65b892cd"/>
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png" />
+		<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-iphone-precomposed.png" />
+		<link rel="stylesheet" href="css/jquery.mobile.whips.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.structure.min.css" />
+		<link rel="stylesheet" href="css/app.css" />
+		<script src="js/jquery.min.js"></script> 
+		<script src="js/custom-init.js"></script> 
+		<script src="js/jquery.mobile.min.js"></script> 
+		<script src="js/app.js"></script> 
+	</head> 
+	
+	<body>
+	    
+	    <div id="audios">
+			<audio id="sample" preload="auto"><source src=""></audio>
+		</div>
+
+		<!--******************************** INICIO ****************************************-->
+		<div data-role="page" id="inicio" data-theme="d" data-fullscreen="true">
+			
+			<div data-role="header"  data-id="header" data-theme="a" data-position="fixed">
+				<h1>Latigo</h1>
+				<a id="info" href="#info" data-role="button" data-icon="info" data-iconpos="notext" data-transition="slideup" class="ui-btn-right">Info</a>
+			</div>
+			
+			<div data-role="content" data-theme="d">
+				<div id="chord">
+						<img id="chorddiagram" src="" />
+				</div>	
+			</div><!-- /content -->
+			
+			<div data-role="footer"  data-id="footer" data-theme="a" data-position="fixed">
+			    <div style="text-align:center;padding:2px 2px;">
+							<form>
+					<fieldset data-role="controlgroup" data-type="horizontal" data-mini="false">
+						<label for="select1">Select type</label>
+						<select disabled="disabled" name="select1" id="select1" data-mini="false">
+							<option value="bull" selected="selected">Bull</option>
+							<option value="chain">Chain</option>
+							<option value="indy">Indy</option>
+							<option value="lungeing">Lungeing</option>
+							<option value="nine">Nine</option>
+							<option value="riding">Riding</option>
+							<option value="romal">Romal</option>
+							<option value="signal">Signal</option>
+							<option value="stock">Stock</option>
+						</select>
+					</fieldset>
+				</form>
+				</div>
+			</div>
+		</div><!-- /page -->	
+		
+
+		<!--******************************** INFO ****************************************-->
+		<div data-role="page" id="info" data-theme="d">			
+			<div data-role="header"  data-id="header_info" data-position="fixed" data-theme="a">
+				<h1>Info</h1>
+				<a class="aceptar ui-btn-right" href="#inicio" data-role="button" data-icon="delete" data-iconpos="notext" data-transition="slideup" data-direction="reverse">Close</a>
+			</div>
+
+			<div data-role="content" >
+                <h3>Latigo</h3>
+				<h5>9 in 1 whip simulator for mobile devices</h5>
+				<h4>Version 1.0</h4>
+				
+				<p>Latigo is a Whip simulator with 9 types of whips. Subjugate everybody around you with Latigo. </p>
+
+				<p>Note: Only sound is simulated.</p>
+				
+				<h4>Features</h4>
+				<ul>
+					<li>9 types of whips.</li>
+					<li>Play whip sound shaking the device like a real whip.</li>
+					<li>Cool graphics.</li>
+				</ul>
+			</div><!-- /content -->
+			
+			
+			
+		</div><!-- /page -->	
+	
+	</body>
+</html>

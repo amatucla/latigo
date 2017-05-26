@@ -1,0 +1,45 @@
+.ui-page {
+	background-image:url('images/purty_wood.png');
+    background-repeat:repeat;
+}
+
+div#inicio div.ui-content {
+    padding: 0;
+	margin:0;	
+	background-image:url('images/purty_wood.png');
+    background-repeat:repeat;
+}
+
+div#info div.ui-content {
+    color: #996633;
+    text-shadow: none;
+}
+
+#chord {
+	text-align:center;
+}
+
+#chordname {
+	font-size:42px;
+	margin:10px;
+}
+
+#chorddiagram {
+	margin: 60px auto 30px;
+	max-width: 320px;
+	max-height: 320px;
+}
+
+img.bemol {
+    vertical-align: bottom;
+    width: 24px;
+}
+
+img.sharp {
+    vertical-align: bottom;
+    width: 30px;
+}
+
+img.splash#chorddiagram {
+	width:300px; 
+}
