@@ -6,7 +6,7 @@ header('Content-type: application/x-web-app-manifest+json');
 	"name": "Latigo", 
 	"description": "9 in 1 whip simulator for mobile devices.", 
 	"launch_path": "/index.html", 
-	"developer": { "name": "Antonio Maturana", "url": "http://www.palasaka.com" }, 
+	"developer": { "name": "amatucla", "url": "http://www.palasaka.com" }, 
 	"icons": { 
 		"32": "/img/icon32.png", 
 		"60": "/img/icon60.png", 
